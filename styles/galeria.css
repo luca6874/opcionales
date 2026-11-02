@@ -1,0 +1,11 @@
+#imagenes{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 5px;
+    
+}
+
+#imagenes img:hover{
+    width: 210px;
+    height: 210px;
+}
